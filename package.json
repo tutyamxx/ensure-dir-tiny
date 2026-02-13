@@ -1,0 +1,40 @@
+{
+  "name": "ensure-dir-tiny",
+  "version": "1.0.0",
+  "description": "📁 Checks if a folder exists; if not, it creates it. This prevents \"File Not Found\" errors when saving data.",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.js",
+    "types": "./index.d.ts"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutyamxx/ensure-dir-tiny.git"
+  },
+  "keywords": [
+    "ensure-dir-tiny",
+    "ensure-dir",
+    "ensure-directory",
+    "directory-exists",
+    "dir-exists",
+    "fs",
+    "mkdir",
+    "ensure"
+  ],
+  "author": "tuty",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tutyamxx/ensure-dir-tiny/issues"
+  },
+  "homepage": "https://github.com/tutyamxx/ensure-dir-tiny#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
