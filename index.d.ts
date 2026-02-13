@@ -6,8 +6,8 @@
  * @returns {void}
  *
  * @example
- * ensureDirectory("./data/logs");
+ * ensureDir("./data/logs");
  */
-declare function ensureDirectory(path: string): void;
+declare function ensureDir(path: string): void;
 
-export  = ensureDirectory;
+export  = ensureDir;
