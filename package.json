@@ -1,6 +1,6 @@
 {
   "name": "ensure-dir-tiny",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "📁 Checks if a folder exists; if not, it creates it. This prevents \"File Not Found\" errors when saving data.",
   "main": "index.js",
   "module": "index.js",

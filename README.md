@@ -11,7 +11,7 @@
 # 📦 Install via [NPM](https://www.npmjs.com/package/contains-emoji)
 
 ```bash
-$ npm i ensure-dir
+$ npm i ensure-dir-tiny
 ```
 
 # 💻 Usage
