@@ -22,12 +22,12 @@ $ npm i ensure-dir-tiny
 ```javascript
 const path = require('path');
 const fs = require('fs');
-const ensureDir = require('ensure-dir-tiny');
+const ensureDirTiny = require('ensure-dir-tiny');
 
 const testDir = path.join(__dirname, 'demo/a/b/c');
 
 console.log('Creating directory:', testDir);
-ensureDir(testDir);
+ensureDirTiny(testDir);
 
 if (fs.existsSync(testDir)) {
     console.log('✅ Directory exists — module works');
@@ -36,7 +36,7 @@ if (fs.existsSync(testDir)) {
 }
 
 // --| Run again to test idempotency
-ensureDir(testDir);
+ensureDirTiny(testDir);
 console.log('✅ Called twice without crashing');
 
 ```
@@ -45,7 +45,7 @@ console.log('✅ Called twice without crashing');
 ```javascript
 import path from 'path';
 import fs from 'fs';
-import ensureDir from 'ensure-dir-tiny';
+import ensureDirTiny from 'ensure-dir-tiny';
 import { fileURLToPath } from 'url';
 
 // __dirname replacement in ESM
@@ -55,7 +55,7 @@ const __dirname = path.dirname(__filename);
 const testDir = path.join(__dirname, 'demo/a/b/c');
 
 console.log('Creating directory:', testDir);
-ensureDir(testDir);
+ensureDirTiny(testDir);
 
 if (fs.existsSync(testDir)) {
     console.log('✅ Directory exists — module works');
@@ -64,7 +64,7 @@ if (fs.existsSync(testDir)) {
 }
 
 // --| Run again to test idempotency
-ensureDir(testDir);
+ensureDirTiny(testDir);
 console.log('✅ Called twice without crashing');
 ```
 
@@ -72,12 +72,12 @@ console.log('✅ Called twice without crashing');
 ```javascript
 import path from 'path';
 import fs from 'fs';
-import ensureDir from 'ensure-dir-tiny';
+import ensureDirTiny from 'ensure-dir-tiny';
 
 const testDir: string = path.join(__dirname, 'demo/a/b/c');
 console.log('Creating directory:', testDir);
 
-ensureDir(testDir);
+ensureDirTiny(testDir);
 
 if (fs.existsSync(testDir)) {
     console.log('✅ Directory exists — module works');
@@ -85,6 +85,6 @@ if (fs.existsSync(testDir)) {
     console.log('❌ Directory not created');
 }
 
-ensureDir(testDir);
+ensureDirTiny(testDir);
 console.log('✅ Called twice without crashing');
 ```
