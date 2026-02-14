@@ -6,8 +6,8 @@
  * @returns {void}
  *
  * @example
- * ensureDir("./data/logs");
+ * ensureDirTiny("./data/logs");
  */
-declare function ensureDir(path: string): void;
+declare function ensureDirTiny(path: string): void;
 
-export  = ensureDir;
+export  = ensureDirTiny;
