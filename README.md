@@ -8,7 +8,7 @@
 * 📁 Lightweight package that ensures that the directory at the given path exists. Creates it recursively if it doesn't. Prevents `"File Not Found"` errors when saving files.
 * ♻️ Works seamlessly with `CommonJS`, `ESM` and `TypeScript`
 
-# 📦 Install via [NPM](https://www.npmjs.com/package/contains-emoji)
+# 📦 Install via [NPM](https://www.npmjs.com/package/ensure-dir-tiny)
 
 ```bash
 $ npm i ensure-dir-tiny
