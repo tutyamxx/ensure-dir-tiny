@@ -85,6 +85,7 @@ if (fs.existsSync(testDir)) {
     console.log('❌ Directory not created');
 }
 
+// --| Run again to test idempotency
 ensureDirTiny(testDir);
 console.log('✅ Called twice without crashing');
 ```
